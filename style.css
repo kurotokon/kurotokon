@@ -1,0 +1,182 @@
+html {
+  font-family: "Miltonian Tattoo", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: white;
+  text-shadow: 2px 2px 0px rgb(4, 0, 26);
+  -webkit-text-size-adjust: 100%;
+}
+
+.page {
+  background-color: rgb(4, 0, 26);
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+.home-img-back {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url(images/LINE_ALBUM_MVsatuse_240318_1-boke.jpg);
+}
+
+.home-img {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-image: url(images/LINE_ALBUM_MVsatuse_240318_1.jpg);
+}
+
+@media screen and (orientation: portrait) {
+  .home-img {
+    background-size: contain;
+  }
+}
+.link-menu {
+  height: 8%;
+  width: 100%;
+  position: absolute;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.795);
+}
+
+.link-menu.header {
+  top: 0;
+  justify-content: flex-start;
+}
+
+.link-menu.footer {
+  top: 92%;
+  justify-content: center;
+}
+
+a.link-button {
+  text-decoration: none;
+  color: white;
+  text-shadow: 2px 2px 0px rgb(4, 0, 26);
+  font-size: 1.7vw;
+  margin: 0 1.5vw 0 1.5vw;
+}
+
+.icon-space {
+  display: flex;
+  height: 100%;
+  width: 10%;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+}
+
+@media screen and (orientation: portrait) {
+  .icon-space {
+    width: 20%;
+  }
+}
+.icons {
+  background-color: gray;
+  width: -moz-min-content;
+  width: min-content;
+  box-shadow: 0 2px 7px black;
+  display: flex;
+  justify-content: center;
+}
+
+.link-icon {
+  display: flex;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  cursor: pointer;
+}
+
+.link-icon.X {
+  height: 5vh;
+  width: 5vw;
+  background-image: url(images/logos/logo-black.png);
+}
+
+.link-icon.instagram {
+  height: 6vh;
+  width: 6vw;
+  background-image: url(images/logos/insta_gray.png);
+}
+
+.link-icon.tiktok {
+  height: 6vh;
+  width: 6vw;
+  background-image: url(images/logos/tiktok.png);
+}
+
+@media screen and (orientation: portrait) {
+  .link-icon.X {
+    height: 5vh;
+    width: 8vw;
+  }
+  .link-icon.instagram {
+    height: 6vh;
+    width: 12vw;
+  }
+  .link-icon.tiktok {
+    height: 6vh;
+    width: 11vw;
+  }
+}
+@media screen and (orientation: portrait) {
+  .link-menu.header {
+    justify-content: space-around;
+  }
+  a.link-button {
+    font-size: 5vw;
+    margin: 0 1vw 0 1vw;
+  }
+}
+.content {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.logo {
+  height: 50%;
+  width: 33%;
+  display: flex;
+  justify-content: center;
+}
+
+.logo-img {
+  height: 100%;
+  width: 75%;
+  z-index: 20;
+  position: relative;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  background-image: url(images/C8B3EE0B-930B-4CB4-A204-66BED330445F_work.png);
+}
+
+@media screen and (orientation: portrait) {
+  .logo {
+    height: 40%;
+    width: 100%;
+  }
+  .logo-img {
+    width: 70%;
+  }
+}/*# sourceMappingURL=style.css.map */
