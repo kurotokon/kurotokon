@@ -181,33 +181,6 @@ a.link-button {
     width: 70%;
   }
 }
-.content-info {
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  display: flex;
-  justify-content: flex-end;
-}
-
-.info {
-  height: 100%;
-  width: 33%;
-  display: flex;
-  justify-content: center;
-}
-
-.info-img {
-  height: 25%;
-  width: 55%;
-  top: 40%;
-  z-index: 20;
-  position: relative;
-  background-repeat: no-repeat;
-  background-size: contain;
-  background-position: center;
-  background-image: url(images/1D31EBF8-6CE9-4941-9228-257F410B7370_2.png);
-}
-
 @media screen and (orientation: portrait) {
   .info {
     height: 100%;
